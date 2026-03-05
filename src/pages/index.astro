@@ -1,0 +1,106 @@
+---
+import "../styles/style.css";
+const products = [
+  {
+    name: "Artwork 1",
+    image: "/images/art1.jpg",
+    description: "Acrylic painting inspired by nature."
+  },
+  {
+    name: "Artwork 2",
+    image: "/images/art2.jpg",
+    description: "Handmade ceramic sculpture."
+  },
+  {
+    name: "Artwork 3",
+    image: "/images/art3.jpg",
+    description: "Abstract oil painting."
+  },
+  {
+    name: "Artwork 4",
+    image: "/images/art4.jpg",
+    description: "Minimalist ink illustration."
+  },
+  {
+    name: "Artwork 5",
+    image: "/images/art5.jpg",
+    description: "Mixed media canvas artwork."
+  }
+];
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>StoltGallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="bg-[#1e1e1e] texture-bg">
+
+    <!-- Title -->
+    <section>
+      <h1>Stolt Gallery</h1>
+      <p style="text-align:center;">Handcrafted artworks and unique creations.</p>
+    </section>
+
+
+    <hr class="divider">
+
+
+    <!-- Owner Section -->
+    <section>
+      <h2>About the Owner</h2>
+
+      <div class="owner">
+        <img src="/images/eric.jpeg" alt="Business owner" />
+
+        <p>
+          Hello! I'm the artist behind this gallery. I create handmade artworks
+          inspired by nature, everyday life, and imagination. Each piece is
+          unique and crafted with care using traditional techniques and
+          modern creativity.
+        </p>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- Art Gallery -->
+    <section>
+      <h2>Gallery</h2>
+
+      <div class="gallery">
+        {products.map(product => (
+          <figure class="art">
+            <img src={product.image} alt={product.name} />
+            <figcaption>{product.description}</figcaption>
+          </figure>
+        ))}
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Follow the artist</p>
+
+      <div class="socials">
+        <a href="https://instagram.com/yourprofile" target="_blank">
+          <img src="/icons/instagram.svg" alt="Instagram" />
+        </a>
+
+        <a href="https://facebook.com/yourprofile" target="_blank">
+          <img src="/icons/facebook.svg" alt="Facebook" />
+        </a>
+      </div>
+
+      <p style="margin-top:20px;font-size:0.8rem;">
+        © {new Date().getFullYear()} Artisan Gallery
+      </p>
+    </footer>
+
+  </body>
+</html>
