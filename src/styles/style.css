@@ -10,8 +10,12 @@
     background: #fafafa;
   }
 
-  h1, h2 {
+  h1 {
     text-align: center;
+  }
+
+  h2 {
+    text-align: left;
   }
 
   h1, h2, h3, p, span {
@@ -21,12 +25,11 @@
 
   h1 {
     font-size: 5rem;
-    margin-bottom: 4rem;
   }
   
   h2 {
     font-size: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
   }
   
   p {
@@ -39,7 +42,7 @@
     border: none;
     height: 5px;
     background: black;
-    width: 65%;
+    width: 50%;
     margin: 60px auto;
   }
 
@@ -172,4 +175,43 @@
   
   .lang-switch a:hover {
     opacity: 0.7;
+  }
+
+
+  /* RETRO BANNER */
+
+  .retro-banner {
+    width: 100%;
+    background: black;
+    overflow: hidden;
+    border-top: 2px solid #00ff66;
+    border-bottom: 2px solid #00ff66;
+  }
+
+  .retro-banner-bottom {
+    margin-bottom: 4rem;
+  }
+  
+  .retro-track {
+    display: flex;
+    width: max-content;
+    animation: ticker 18s linear infinite;
+  }
+  
+  .retro-content {
+    white-space: nowrap;
+    color: #00ff66;
+    font-family: "Courier New", monospace;
+    font-size: 1rem;
+    padding-right: 60px;
+  }
+  
+  /* smooth continuous scroll */
+  @keyframes ticker {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
   }
