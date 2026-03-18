@@ -7,11 +7,12 @@
   body {
     font-family: "Spectral", system-ui;
     margin: 0;
-    background: #fafafa;
+    background: #F9EBE0;
   }
 
   h1 {
     text-align: center;
+    margin-bottom: 4rem;
   }
 
   h2 {
@@ -19,7 +20,7 @@
   }
 
   h1, h2, h3, p, span {
-    color: #C0C5C1;
+    color: #0D2149;
   }
 
 
@@ -41,7 +42,7 @@
   .divider {
     border: none;
     height: 5px;
-    background: black;
+    background: #0D2149;
     width: 50%;
     margin: 60px auto;
   }
@@ -91,7 +92,7 @@
   footer {
     text-align: center;
     padding: 40px;
-    background: #111;
+    background: #F9EBE0;
     color: white;
   }
 
@@ -113,6 +114,10 @@
     filter: invert(1);
   }
 
+  .fa-instagram {
+    color: #0D2149;
+  }
+
   @media (max-width: 700px) {
     .owner {
       grid-template-columns: 1fr;
@@ -132,7 +137,7 @@
   .art {
     break-inside: avoid;
     margin-bottom: 20px;
-    color: #C0C5C1;
+    color: #0D2149;
   }
   
   .art img {
