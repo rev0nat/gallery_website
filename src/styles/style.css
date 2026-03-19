@@ -13,29 +13,26 @@
   h1 {
     text-align: center;
     margin-bottom: 4rem;
+    font-size: 5rem;
   }
 
   h2 {
     text-align: left;
+    font-size: 3rem;
+    margin-bottom: 1rem;
   }
 
   h1, h2, h3, p, span {
     color: #4F5D75;
   }
-
-
-  h1 {
-    font-size: 5rem;
-  }
-  
-  h2 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
   
   p {
     font-size: 1rem;
     line-height: 1.6;
+  }
+
+  .intro {
+    text-align: justify;
   }
 
 
