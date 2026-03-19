@@ -1,44 +1,44 @@
 ---
 import "../../styles/style.css";
 const products = [
-  {
-    name: "Artwork 1",
-    image: "/images/gardian_angel.jpeg",
+{
+    name: "L’ANGE GARDIEN RAFAEL",
+    images: ["/images/gardian_angel.jpeg"],
     description: "Antonio Carracci, vers 1583 Venise – 1618 Rome. L’ANGE GARDIEN RAFAEL. Huile sur toile. 152 × 110 cm. Ci-joint une copie de l’expertise du Dr. D. Stephen Pepper, Leesburg. Représentation imposante, presque dans une conception symboliste. Le tableau montre un ange marchant vers la droite, le torse tourné vers un jeune garçon qu’il guide délicatement de la main gauche et qui regarde à son tour vers la lumière. Le pied gauche de l’ange marche sur la nuque d’une figure diabolique, qui est un nu masculin allongé sur le sol, une corne de diable dépassant de ses cheveux noirs. L’éclairage provenant du haut à droite jette un coup de projecteur théâtral sur le groupe de personnages, tandis que les ailes brillamment éclairées s’illuminent devant le coin supérieur sombre. La signification théologique de l’ange gardien a été reprise, en particulier au XVIIe siècle, dans les œuvres picturales des décors d’église et trouve ici une conception expressive dans le présent tableau. Selon certaines sources, le peintre serait le fils d’Agostino Carracci et un neveu d’Annibale Carracci, avec lequel il participait à des travaux de décoration dans la Galleria Farnese. --- Antonio Carracci, 1583 Venise – 1618 Rome. ARCHANGE RAPHAEL. Huile sur toile. 152 × 110 cm. Accompagné du rapport d’expert du Dr. D. Stephen Pepper, Leesburg, en copie."
   },
   {
-    name: "Artwork 2",
-    image: "/images/4_panels_1.jpeg",
+    name: "Four panels depicting Parables for the Chapel at Tatton Park",
+    images: ["/images/4_panels_1.jpeg","/images/4_panels_2.jpeg","/images/4_panels_3.jpeg","/images/4_panels_4.jpeg"],
     description: "WILLIAM GEORGE RICH (Oxford 1857 – 1921 London?) Four panels depicting Parables for the Chapel at Tatton Park, Cheshire, c.1884 - The Parable of the Lost Sheep; The Parable of the Talents; The Parable of the Great Supper; The Parable of the Prodigal Son. Set of four panels – all oil on canvas. The Parable of the Talents inscribed on the stretcher – Lord Egerton. Dimensions: The Parable of the Great Supper: 81 x 277 cm / 31 ⅔ x 109 in; The Parable of the Lost Sheep: 81 x 205 cm / 31 ⅔ x 80 ¾ in; The Parable of the Prodigal Son: 81 x 205 cm / 31 ⅔ x 80 ¾ in; The Parable of the Talents: 81 x 277 cm / 31 ⅔ x 109 in. Provenance: Commissioned by Wilbraham Egerton, 1st Earl Egerton for the new family chapel at Tatton Park, Cheshire, c.1884; sold mid 20th century; private collection, Italy. This set of parables formerly decorated the chapel at Tatton Park in Cheshire, home to the Egerton family; its interior was described by Country Life in 1906 as decorated in the Italian style with walnut stalls carved at Vicenza, stained-glass angels after Fra Angelico, Rich’s parable paintings from Heaton and Butler adorning the walls, and wrought iron entrance gates with vine leaves and grapes picked out in blue and gold."
   },
   {
-    name: "Artwork 3",
-    image: "/images/student_french.jpeg",
+    name: "Portrait de femme à la poitrine dénudée",
+    images: ["/images/student_french.jpeg"],
     description: "École française du 19ème siècle, \"Portrait de femme à la poitrine dénudée\", pastel sur papier (ovale), 60.5 x 49 cm, encadré sous verre"
   },
   {
-    name: "Artwork 4",
-    image: "/images/student_native.jpeg",
+    name: "Portrait d'une jeune fille en costume italien",
+    images: ["/images/student_native.jpeg"],
     description: "Passini, Ludwig Johann (1832 Vienne - 1903 Venise, élève de son père Johann, formation poursuivie à Vienne et Venise, peintre à l'aquarelle et à l'huile actif à Rome entre 1853 et 1870, spécialisé dans les scènes de genre et portraits), \"Portrait d'une jeune fille en costume italien\", aquarelle sur papier, signée et datée en haut à droite \"Ludwig Passini 1880\", 16 x 21 cm (RA)"
   },
   {
-    name: "Artwork 5",
-    image: "/images/buffalo.jpeg",
+    name: "Troupeau de buffles",
+    images: ["/images/buffalo.jpeg"],
     description: "Jung-Ilsenheim, Franz Xaver (1883 - 1963), \"Troupeau de buffles\", gouache sur papier, signée en bas à gauche \"F. Jung-Ilsenheim\", 27 x 39 cm (RA), encadré sous verreMixed media canvas artwork."
   },
   {
-    name: "Artwork 6",
-    image: "/images/assault_orient.jpeg",
+    name: "Scène d’assaut orientaliste",
+    images: ["/images/assault_orient.jpeg"],
     description: "Ecole Française du XIXème, Scène d’assaut orientaliste. Dessin à la plume, lavis d’encre et aquarelle sur traits de pierre noire sur papier filigrané. Hauteur : 24.5 cm Largeur : 35 cm"
   },
   {
-    name: "Artwork 7",
-    image: "/images/mosque.jpeg",
+    name: "Mosquée Sultan Hamet",
+    images: ["/images/mosque.jpeg"],
     description: "Jozef PAWLIKIEWICZ (1894-1930) Mosquée Sultan Hamet (mosquée Bleue), Istanbul Aquarelle sur papier Signée, située et datée 930 en bas à gauche 43 x 28,5 cm"
   },
   {
-    name: "Artwork 8",
-    image: "/images/blond_beard.jpeg",
+    name: "ORIENTAL A LA BARBE BLONDE",
+    images: ["/images/blond_beard.jpeg"],
     description: "ÉCOLE ORIENTALISTE (XIXE SIÈCLE) ORIENTAL A LA BARBE BLONDE ORIENTAL MAN WITH A BLOND BEARD Crayon et aquarelle sur papier, de forme ovale. Trace de signature en bas à droite. DIM. (VUE) 34 X 22 CM (13 3/8 X 8 11/16 IN.)"
   }
 ];
@@ -109,25 +109,6 @@ const products = [
 
     <hr class="divider">
 
-
-    <!-- Owner Section -->
-    <section>
-      <h2>About the Owner</h2>
-
-      <div class="owner">
-        <img src="/images/eric.jpeg" alt="Business owner" />
-
-        <p>
-          Hello! I'm the artist behind this gallery. I create handmade artworks
-          inspired by nature, everyday life, and imagination. Each piece is
-          unique and crafted with care using traditional techniques and
-          modern creativity.
-        </p>
-      </div>
-    </section>
-
-    <hr class="divider">
-
     <!-- Art Gallery -->
     <section>
       <h2>Gallery</h2>
@@ -136,30 +117,42 @@ const products = [
         {products.map((product, i) => (
           <figure class="art">
             <img
-              src={product.image}
+              src={product.images[0]}
               alt={product.name}
               class="cursor-pointer"
               onclick={`document.getElementById('modal-${i}').showModal()`}
             />
       
-            <!-- Modal per item -->
             <dialog id={`modal-${i}`} class="p-0 rounded-lg backdrop:bg-black/70">
-              <div class="max-w-3xl w-full">
-                
-                <img src={product.image} class="w-full" />
+              
+              <div class="max-w-4xl w-full">
       
+                <!-- IMAGES -->
+                <div class="flex flex-col gap-2">
+                  {product.images.map((img) => (
+                    <img
+                      src={img}
+                      class="w-full object-cover"
+                    />
+                  ))}
+                </div>
+      
+                <!-- TEXT -->
                 <div class="p-4">
                   <h2 class="font-semibold mb-2">{product.name}</h2>
                   <p class="text-sm">{product.description}</p>
                 </div>
       
+                <!-- CLOSE -->
                 <form method="dialog">
-                  <button class="absolute top-2 right-2">✕</button>
+                  <button class="absolute top-2 right-2 bg-black/60 text-white rounded-full w-8 h-8">
+                    ✕
+                  </button>
                 </form>
       
               </div>
-            </dialog>
       
+            </dialog>
           </figure>
         ))}
       </div>
@@ -179,6 +172,5 @@ const products = [
         © {new Date().getFullYear()} Stolt Gallery
       </p>
     </footer>
-
   </body>
 </html>
