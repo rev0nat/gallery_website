@@ -16,6 +16,10 @@
     font-size: 5rem;
   }
 
+  .main-title {
+    margin-top: 4rem;
+  }
+
   h2 {
     text-align: left;
     font-size: 3rem;
@@ -166,7 +170,7 @@
   
   .lang-switch a {
     text-decoration: none;
-    color: #eaeaea;
+    color: #4F5D75;
     margin: 0 5px;
   }
   
