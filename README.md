@@ -15,6 +15,8 @@ To update docker image:
 	$ docker compose build
 To connect to docker container:
 	$ docker exec -it <container_name_or_id> /bin/bash
+TO build the static html files, once connected to the container:
+	$ npm run build
 To check website localy:
 	$ http://localhost:4321
 
